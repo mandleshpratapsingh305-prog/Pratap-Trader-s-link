@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratap Trader's Links</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: #111827;
+      border-radius: 20px;
+      padding: 25px;
+      width: 350px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo {
+      margin-bottom: 15px;
+    }
+
+    .logo img {
+      width: 80px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+
+    p.tagline {
+      font-size: 14px;
+      color: #cbd5e1;
+      margin-bottom: 20px;
+    }
+
+    .link-card {
+      background: #1f2937;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    .link-card:hover {
+      background: #374151;
+    }
+
+    .link-card img {
+      width: 24px;
+      margin-right: 10px;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <img src="https://i.postimg.cc/W3pDhnwM/logo.png" alt="Pratap Trader's Logo" />
+    </div>
+    <h1>Pratap Trader's</h1>
+    <p class="tagline">✨ Shop Premium Wear on Amazon, Flipkart & connect with us on WhatsApp + Instagram</p>
+
+    <a href="https://whatsapp.com/channel/0029VbAyq3HHLHQbVjyCz93D" class="link-card" target="_blank">
+      <div class="left">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+        <span>WhatsApp Channel</span>
+      </div>
+      ➝
+    </a>
+
+    <a href="https://www.instagram.com/pratap.traders?igsh=MTJhZWJnejJyOGgzdw==" class="link-card" target="_blank">
+      <div class="left">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+        <span>Instagram</span>
+      </div>
+      ➝
+    </a>
+
+    <a href="https://www.amazon.in/s?me=your-store-id" class="link-card" target="_blank">
+      <div class="left">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732228.png" alt="Amazon" />
+        <span>Amazon Store</span>
+      </div>
+      ➝
+    </a>
+
+    <a href="https://www.flipkart.com/your-store-id" class="link-card" target="_blank">
+      <div class="left">
+        <img src="https://cdn-icons-png.flaticon.com/512/6124/6124991.png" alt="Flipkart" />
+        <span>Flipkart Store</span>
+      </div>
+      ➝
+    </a>
+  </div>
+</body>
+</html>
